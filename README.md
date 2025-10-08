@@ -18,7 +18,7 @@ This project was created on Code.org's JavaLab platform using the built-in Neigh
 
 ## Output:
 
-[This is my project image](art.png)
+[This is my project image]  
 
 ## Reflection
 

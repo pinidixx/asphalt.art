@@ -1,0 +1,269 @@
+import org.code.neighborhood.*;
+
+  /*
+   * Instructs the new painter to go to the start
+   */
+public class LeavesPainter extends PainterPlus {
+
+  public void goToStart() {
+  
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnRight();
+    move();
+     move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnLeft();
+    
+  }
+
+
+   /*
+   * Instructs the painter to paint the leaves section of the tree
+   */
+  public void paintLeaves() {
+
+    setPaint(10000);
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+
+    
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    turnRight();
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+     move();
+    paint("DarkGreen");
+
+    turnRight();
+    move();
+    turnLeft();
+    move();
+    paint("DarkGreen");
+    turnRight();
+    turnRight();
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+   
+
+    turnLeft();
+    move();
+    paint("LawnGreen");
+    turnLeft();
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+
+
+   turnRight();
+    move();
+    turnRight();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+
+    turnLeft();
+    move();
+    turnLeft();
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+
+    turnRight();
+    move();
+    turnRight();
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+     move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+
+     turnLeft();
+    move();
+    turnLeft();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    
+    turnRight();
+    move();
+    turnRight();
+    move();
+    paint("LawnGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("DarkGreen");
+    move();
+    paint("ForestGreen");
+    move();
+    paint("ForestGreen");
+}
+  
+}

@@ -2,10 +2,10 @@ import org.code.neighborhood.*;
 
 public class BackgroundPainter extends PainterPlus {
   
-  /* ------------------ paintBackground ------------------
-   * 📄 Paints the background of the neighborhood by zig-zagging
+  /* 
+   * Paints the background of the neighborhood by zig-zagging
    *    from the top to bottom / left to right.
-   * --------------------------------------------------
+   * 
    */
   public void paintBackground(String color) {
     while (canMove("south")) {
@@ -16,10 +16,8 @@ public class BackgroundPainter extends PainterPlus {
     }
   }
 
-  /* ------------------ paintRow ------------------
-   * 📄 Helper method to paint a row of the neightboorhood
-   *    Used in paintBackground method.
-   * --------------------------------------------------
+  /* 
+   * Paint a row of the neighborhood
    */
   public void paintRow(String color) {
     while (canMove()) {
@@ -29,10 +27,9 @@ public class BackgroundPainter extends PainterPlus {
     paint(color);
   }
 
-  /* ------------------ turnToEast ------------------
-   * 📄 Helper method used to turn after each row to 
-   *    achieve the zig-zag painted background
-   * --------------------------------------------------
+  /* 
+   * Turn after each row to 
+   * get zig-zag painted background
    */
   public void turnToEast() {
     if (isFacingWest()) {
@@ -46,10 +43,9 @@ public class BackgroundPainter extends PainterPlus {
     }
   }
   
-  /* ------------------ turnToWest ------------------
-   * 📄 Helper method used to turn after each row to 
-   *    achieve the zig-zag painted background
-   * --------------------------------------------------
+  /* 
+   *   Turn after each row to 
+   *   get zig-zag painted background
    */
   public void turnToWest() {
     if (isFacingEast()) {
@@ -63,9 +59,8 @@ public class BackgroundPainter extends PainterPlus {
     }
   }
 
-  /* ------------------ resetPosition ------------------
-   * 📄 Resets the MuralPainter object to the starting location
-   * --------------------------------------------------
+  /* 
+   * Resets the Painter object to the starting location
    */
   public void resetPosition() {
     if (isFacingEast()) {
@@ -85,9 +80,9 @@ public class BackgroundPainter extends PainterPlus {
     }
   }
   
-  /* ------------------ moveToCorner ------------------
-   * 📄 Moves the MuralPainter to the bottom right corner
-   * --------------------------------------------------
+  /* 
+   * Moves the Painter to the bottom right corner
+   * 
    */
   public void moveToCorner() {
     while (canMove()) {

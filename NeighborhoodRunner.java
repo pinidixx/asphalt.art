@@ -5,17 +5,21 @@ public class NeighborhoodRunner {
       
       //Creates a painter object called lily
       BackgroundPainter lily = new BackgroundPainter();
-      lily.setPaint(1000);
-      lily.paintBackground("LightBlue");
+      lily.setPaint(10000);
+      lily.paintBackground("LightBlue");          //Paints the background light blue
         
-      //Painter starting position
-      TreePainter paul = new TreePainter();
-      paul.goToStart();
-      paul.paintTreeBase();
+      //Creates a painter object called paul
+      TreeBasePainter paul = new TreeBasePainter();
+      paul.goToStart();            //Painter starting position
+      paul.paintTreeBase();        //Painter starts to paint tree base
       
-      paul.paintLeaves();
+      //Creates a painter object called billy
+      LeavesPainter billy = new LeavesPainter();
+      billy.goToStart();           //Painter starting position
+      billy.paintLeaves();         //Painter starts to paint tree leaves
       
     
       
     }
  } 
+
